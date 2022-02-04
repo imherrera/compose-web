@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 
 @Composable
-fun WebComponent(modifier: Modifier = Modifier, state: WebStateClient) {
+fun WebView(modifier: Modifier = Modifier, state: WebStateClient) {
     AndroidView(
         modifier = modifier,
         factory = { context ->

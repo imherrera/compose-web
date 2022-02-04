@@ -41,7 +41,7 @@ fun ComposeWebSample() {
         ) {
             if (webState.loading) LinearProgressIndicator()
         }
-        WebComponent(
+        WebView(
             modifier = Modifier.fillMaxSize(),
             state = webState,
         )
